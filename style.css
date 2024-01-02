@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 nav a {
@@ -57,10 +57,17 @@ nav a {
     padding: 50px 0;
     margin:0;
 }
-
+.hero h2{
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+}
+.hero p{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+}
 .hero img {
     width: 100%;
-    height: auto;
+    height: 96vh;
 }
 
 .hero-text {
